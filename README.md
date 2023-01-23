@@ -1,18 +1,18 @@
 # scheme-lisp
 
-Install the Scheme Lisp interpreter
+:bowtie: Install a Scheme Lisp interpreter.  See [GNU Guile](https://www.gnu.org/software/guile/).
 ```
 sudo apt install guile-3.0
 ```
 
-Run interactive interpreter
+:mage_man: Run the interpreter *interactively*.
 ```
 guile
 ```
+Use Ctrl-D to quit.
 
-Scheme Lisp files end with .scm (eg `hello-world.scm`)
 
-Run the Scheme Lisp file
+:elf_woman: Run the Scheme Lisp file.  Scheme Lisp files end with .scm (eg `hello-world.scm`).
 ```
 guile -s hello-world.scm
 ```
